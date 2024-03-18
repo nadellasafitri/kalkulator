@@ -24,3 +24,12 @@ function bagi(a, b) {
     return a / b;
 }
 console.log("Hasil pembagian: " + bagi(5, 3));
+
+// Operasi Modulus
+function modulus(a, b) {
+    if (b === 0) {
+        return "Tidak bisa melakukan modulus dengan nol";
+    }
+    return a % b;
+}
+console.log("Hasil modulus: " + modulus(5, 3));
