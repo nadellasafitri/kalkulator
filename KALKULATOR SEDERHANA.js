@@ -15,3 +15,12 @@ function kali(a, b) {
     return a * b;
 }
 console.log("Hasil perkalian: " + kali(5, 3));
+
+// Operasi Pembagian
+function bagi(a, b) {
+    if (b === 0) {
+        return "Tidak bisa dibagi dengan nol";
+    }
+    return a / b;
+}
+console.log("Hasil pembagian: " + bagi(5, 3));
